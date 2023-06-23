@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css.css">
+    <title>21</title>
+</head>
+<body>
+    <body>
+        <div class="container">
+          <div class="score jugador">
+            <h2>  <span id="puntos-tuyos">0</span></h2>
+          </div>
+          <div class="score crupier">
+            <h2> <span id="puntos-crupier">0</span></h2>
+          </div>
+          <div class="cartas_jugador" id="tus-cartas"></div>
+          <div class="cartas_crupier" id="cartas-crupier"></div>
+          <div class="comandos" colspan="2">
+            <button id="repartir">Repartir</button>
+            <button id="tomar" disabled>Tomar Carta</button>
+            <button id="plantarse" disabled>Plantarse</button>
+            <button id="reiniciar" disabled>Reiniciar</button>
+            <button id="finalizar" disabled>Finalizar</button>
+          </div>
+          <div class="mensaje " colspan="2">
+            <h2 id="mensaje"></h2>
+          </div>
+          <div class="marcador disable" colspan="2">
+            <h3> <span id="victorias">0</span></h3>
+            <h3> <span id="derrotas">0</span></h3>
+            <h3> <span id="empates">0</span></h3>
+          </div>
+        </div>
+        <script src="./p.js"></script>
+        <!-- <script src="./js.js"></script> -->
+      </body>
+</body>
+</html>
